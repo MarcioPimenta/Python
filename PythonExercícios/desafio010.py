@@ -1,0 +1,5 @@
+real = float(input('Quanto dinheiro você tem? R$'))
+dol = (real / 3.27)
+eur = (real / 5.44)
+print('Você tem R${:.2f}, que valem U${:.2f}.'.format(real, dol))
+print('Em euros você tem {:.2f}.'.format(eur))
